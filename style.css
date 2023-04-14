@@ -1,0 +1,210 @@
+.navbar-nav{
+    margin-left: auto;
+}
+
+
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+     height: 40px;
+     padding-left: 20px;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    color: white !important;
+    font-weight: 600;
+    float: center;
+    text-align: center;
+}
+
+.fa-bars{
+    color: white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+/********************************* BANNER SECTION  *******************************/
+#banner{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: white;
+    padding-top: 5%;
+}
+
+.promo-titile{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: white;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
+}
+/**************************************************************** BANNER SECTION  **************************************************/
+/**************************************************************** SERVICE SECTION **************************************************/
+
+#Services{
+    padding: 80px 0;
+}
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+}
+.services{
+    padding: 20px;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.tittle::before{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right:auto ;
+    display: block;
+    transform: translateY(63px);
+}
+.tittle::after{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+#Services .btn{
+    box-shadow: none;
+    padding: 8px 25px;
+    border-radius: 50px;
+}
+/**************************************************************** SERVICE SECTION **************************************************/
+/**************************************************************** ABOUT US **************************************************/
+#about-us{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-tittle{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+    margin-left:  30px; 
+
+}
+
+#about-us ul li{
+    margin: 10px 0;
+} 
+
+#about-us ul{
+    margin-left:  30px; 
+}
+/**************************************************************** ABOUT US **************************************************/
+/**************************************************************** Testimonials **************************************************/
+
+#testimonials{
+    margin: 100px 0;
+}
+
+.img{
+    border-radius:50% ;
+}
+.testimonials{
+    border-left: 4px solid #7b1798 ;
+    margin-top:50px ;
+    margin-bottom: 50px;
+}
+
+.testimonials img{
+    height: 200px;
+    width: 200px;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 15px;
+}
+/**************************************************************** Testimonials **************************************************/
+/**************************************************************** SOCIAL MEDIA **************************************************/
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 60px;
+    transition: all 0.2s linear;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+/**************************************************************** SOCIAL MEDIA **************************************************/
+/**************************************************************** FOOTER ********************************************************/
+#footer{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: white;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+/**************************************************************** FOOTER ********************************************************/
+
+.footer-box .btn-danger{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+
+}
+
